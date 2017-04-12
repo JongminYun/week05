@@ -14,9 +14,6 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 
 import lombok.extern.log4j.Log4j;
 
-/**
- * Created by tchi on 2017. 4. 1..
- */
 @RestController
 @RequestMapping("/api/v1/")
 @Log4j
