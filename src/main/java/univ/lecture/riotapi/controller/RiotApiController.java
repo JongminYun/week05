@@ -37,7 +37,7 @@ public class RiotApiController {
 
         String result = calc.calc(String.valueOf(args));
 
-        ObjectNode reData = JsonNodeFactory.instance.objectNode(); 		// return data 생성
+        ObjectNode reData = JsonNodeFactory.instance.objectNode(); 		
         reData.put("teamid", 18);
         reData.put("now", System.currentTimeMillis());
         reData.put("result", result);
